@@ -287,7 +287,7 @@ nav h1 a {
 #restaurant-img {
   width: 100%;
   border-radius: 50px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.2);
 }
 .info-container {
   display: flex;
@@ -295,16 +295,16 @@ nav h1 a {
 }
 
 #restaurant-address {
-  font-size: 12pt;
+  font-size: 11pt;
   background-image: linear-gradient(
     to left,
     #c4c5c7 0%,
     #dcdddf 52%,
     #ebebeb 100%
   );
-  padding: 22px 20px;
+  padding: 17px 20px;
   border-radius: 50px;
-  width: 57%;
+  width: 62%;
   text-align: center;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   margin: auto;
@@ -313,17 +313,16 @@ nav h1 a {
 #restaurant-cuisine {
   background: linear-gradient(to right, #868f96 0%, #596164 100%);
   color: #ddd;
-  font-size: 15pt;
+  font-size: 9pt;
   font-weight: 300;
   letter-spacing: 10px;
   margin: 20px 0 20px;
   padding: 20px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 100%;
   border-radius: 50px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-  width: 40%;
+  width: 35%;
 }
 .rest-container {
   display: flex;
@@ -340,8 +339,8 @@ nav h1 a {
   text-align: center;
   padding: 15px;
   border-radius: 40px;
-  background: #56b5da6c;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);  
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.13);
 }
 
 #reviews-container {
@@ -369,7 +368,7 @@ nav h1 a {
   position: relative;
   width: 85%;
   border-radius: 40px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.062); 
 }
 #reviews-list li p {
   margin: 0 0 10px;
