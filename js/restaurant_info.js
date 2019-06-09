@@ -78,16 +78,20 @@ fetchRestaurantFromURL = (callback) => {
  */
 fillRestaurantHTML = (restaurant = self.restaurant) => {
   const name = document.getElementById('restaurant-name');
+  name.setAttribute('aria-label',`restaurant name ${restaurant.name}`);
   name.innerHTML = restaurant.name;
 
   const address = document.getElementById('restaurant-address');
+  address.setAttribute('aria-label',`restaurant address ${restaurant.address}`);
   address.innerHTML = restaurant.address;
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
+  image.alt = `${restaurant.name}` +'Restaurant image';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
 
   const cuisine = document.getElementById('restaurant-cuisine');
+  cuisine.setAttribute('aria-label',`restaurant cuisine ${restaurant.cuisine_type}`);
   cuisine.innerHTML = restaurant.cuisine_type;
 
   // fill operating hours
@@ -112,8 +116,8 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
 
     const time = document.createElement('td');
     time.innerHTML = operatingHours[key];
-    row.appendChild(time);
 
+    row.appendChild(time);
     hours.appendChild(row);
   }
 }
@@ -125,6 +129,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
+  title.setAttribute('tabindex', '0');
   container.appendChild(title);
 
   if (!reviews) {

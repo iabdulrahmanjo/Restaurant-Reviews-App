@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,11 +21,7 @@
       <nav>
         <h1><a href="/">Restaurant Reviews</a></h1>
       </nav>
-      <!-- Beginning breadcrumb -->
-      <ul id="breadcrumb">
-        <li><a href="/">Home</a></li>
-      </ul>
-      <!-- End breadcrumb -->
+      <a href="#restaurant-name" class="skip-link">Skip to restaurant details</a> 
       <!-- End nav -->
     </header>
     <!-- End header -->
@@ -37,22 +33,27 @@
         <div id="map"></div>
       </section>
       <!-- End map -->
+      <!-- Beginning breadcrumb -->
+      <ul id="breadcrumb">
+        <li><a href="/">Home</a></li>
+      </ul>
+      <!-- End breadcrumb -->
       <!-- Beginning restaurant -->
       <div class="rest-container">
         <section id="restaurant-container">
-          <h1 id="restaurant-name"></h1>
-          <img id="restaurant-img">
+          <h1 id="restaurant-name" tabindex="0"></h1>
+          <img id="restaurant-img" tabindex="0">
           <div class="info-container">
-            <p id="restaurant-cuisine"></p>
-            <p id="restaurant-address"></p>
+            <p id="restaurant-cuisine" tabindex="0"></p>
+            <p id="restaurant-address"  tabindex="0"></p>
           </div>
 
-          <table id="restaurant-hours"></table>
+          <table id="restaurant-hours" tabindex="0"></table>
         </section>
         <!-- end restaurant -->
         <!-- Beginning reviews -->
-        <section id="reviews-container">
-          <ul id="reviews-list"></ul>
+        <section id="reviews-container" >
+          <ul id="reviews-list" tabindex="0"></ul>
         </section>
         <!-- End reviews -->
       </div>
