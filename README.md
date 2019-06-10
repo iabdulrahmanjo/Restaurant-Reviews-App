@@ -10,10 +10,10 @@ For the **Restaurant Reviews** projects, you will incrementally convert a static
 1. Open it [here](https://abdulrhmanjo.github.io/Restaurant-Reviews-App/)
 
 2. Run it localy
-* Download as .zip file or clone this project:
+* clone this project:
 
     ```
-    $ git clone https://github.com/stearruda/fend-restaurant-reviews-app.git
+    $ git clone https://github.com/AbdulrhmanJo/Restaurant-Reviews-App.git
     ```
 
 * In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
