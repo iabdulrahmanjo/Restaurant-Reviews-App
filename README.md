@@ -1,4 +1,4 @@
-#Restaurant Reviews App
+# Restaurant Reviews App
 ---
 ## Project instructions:
 
