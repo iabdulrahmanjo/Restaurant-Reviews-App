@@ -7,9 +7,6 @@ For the **Restaurant Reviews** projects, you will incrementally convert a static
 
 ## Run the appliction
 
-1. Open it [here](https://abdulrhmanjo.github.io/Restaurant-Reviews-App/)
-
-2. Run it localy
 * clone this project:
 
     ```
